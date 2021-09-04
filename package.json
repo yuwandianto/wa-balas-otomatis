@@ -1,0 +1,14 @@
+{
+  "name": "wa-balas-otomatis",
+  "version": "1.0.0",
+  "description": "WA webhook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuwan",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
+}
