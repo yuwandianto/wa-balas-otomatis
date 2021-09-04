@@ -4,11 +4,16 @@
   "description": "WA webhook",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yuwan",
   "license": "ISC",
   "dependencies": {
     "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
   }
 }
