@@ -28,6 +28,12 @@ const client = new Client({
     }
 });
 
+app.get('/', (req, res) => {
+    res.sendFile('index.html', {
+        root: __dirname
+    });
+});
+
 io.on('connection', function (socket) {
     socket.emit('message', 'Menghubungkan...');
 
